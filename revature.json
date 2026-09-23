@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SubtractTest.java",
+      "testCases": [
+        {
+          "methodName": "subTest1",
+          "label": "Subtracts decimal values with precision",
+          "description": "Verifies that subtracting 0.1 from 1.1 yields 1.0 within a provided margin of error for the test."
+        },
+        {
+          "methodName": "subTest2",
+          "label": "Subtracts small decimal values",
+          "description": "Checks that subtracting 0.5 from 0.7 yields 0.2 within a provided margin of error for the test."
+        },
+        {
+          "methodName": "subTest3",
+          "label": "Subtracts larger decimal values",
+          "description": "Ensures that subtracting 50.1 from 100.2 yields 50.1 within a provided margin of error for the test."
+        }
+      ]
+    }
+  ]
+}
